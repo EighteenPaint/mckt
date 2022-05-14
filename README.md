@@ -20,12 +20,7 @@ The requiring environment is as bellow:
 ## Running MCKT.
 Here is one example for using MCKT model (on ASSISTments2009 datasets):
 ```
-step 1： edit config.ini and set default value for your experiment and dataset
-setp 2:  setup section value so that it can read the default:
-
-section = 'assist2009_updated'
-
-step 3: python main.py --dataset assist2009_updated --model mckt 
+python main.py --dataset assist2009_updated --model mckt 
 ```
 
 
